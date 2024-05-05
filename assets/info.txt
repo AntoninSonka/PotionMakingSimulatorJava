@@ -1,0 +1,9 @@
+ascii art screen size: 32, 128
+
+size of each asset:
+    witch: 19, 23
+    cauldron: 14, 24
+    shelf: 14, 40
+    scale: 12, 16
+
+text box size: 8, 128
