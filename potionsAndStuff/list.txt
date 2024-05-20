@@ -1,0 +1,171 @@
+0 - positive
+1 - negative
+
+00 - herbs
+01 - animal products
+10 - minerals
+11 - other(probably magical)
+
+0000 - which ingredient/potion
+
+0 00 0000 - ingredient/potion ID
+
+ingredients
+
+0 00 0000 - Eirleaf
+    -d A plant known for its powerful healing properties.
+
+0 00 0001 - Golden Flower
+    -d A rare, sun-loving bloom with restorative effects.
+
+0 00 0010 - Lavender
+    -d A fragrant herb used for calming and soothing.
+
+0 01 0000 - Unicorn Hair
+    -d Mythical hair, associated with purity and healing.
+
+0 01 0001 - Phoenix Feather
+    -d Known for its regenerative and rejuvenating properties.
+
+0 01 0010 - Honey
+    -d Sweet, produced by bees, and has healing qualities.
+
+0 10 0000 - Sunstone
+    -d A bright mineral believed to energize and invigorate.
+
+0 10 0001 - Quartz Crystal
+    -d Used for clarity and purification in various potions.
+
+0 11 0000 - Spring Water
+    -d Fresh water from natural springs, known for its purity.
+
+0 11 0001 - Fairy Dust
+    -d Mildly magical dust collected from enchanted forests.
+
+1 00 0000 - Nightshade
+    -d A toxic plant known for its dangerous effects.
+
+1 00 0001 - Withered Root
+    -d A dried root associated with decay and poison.
+
+1 00 0010 - Hemlock
+    -d A poisonous herb with a notorious reputation.
+
+1 01 0000 - Spider Venom
+    -d Extracted from spiders, used for paralysis effects.
+
+1 01 0001 - Bat Wings
+    -d Used in dark potions to cause blindness.
+
+1 01 0010 - Rotten Meat
+    -d Decayed flesh, induces weakness in potions.
+
+1 10 0000 - Cursed Dust
+    -d Found in haunted locations, used for harmful spells.
+
+1 10 0001 - Obsidian Shard
+    -d A sharp mineral linked to negative energy.
+
+1 11 0000 - Swamp Water
+    -d Collected from stagnant swamps, often contaminated.
+
+1 11 0001 - Ashes
+    -d Remains from burnt items, associated with destruction.
+
+0 00 0011 - Mint
+    -d A common herb used for refreshing and mild healing.
+
+0 00 0100 - Sage
+    -d An herb used for its protective properties.
+
+0 00 0101 - Rosemary
+    -d A versatile herb with various uses in potions.
+
+0 01 0011 - Bear Claw
+    -d Symbolizes strength and ferocity, used in strength potions.
+
+0 01 0100 - Snake Skin
+    -d Shed by snakes, used for transformation potions.
+
+0 01 0101 - Fish Scales
+    -d Found near water bodies, used for various effects.
+
+0 10 0010 - Salt
+    -d Widely available, used for purification and preservation.
+
+0 10 0011 - Iron Ore
+    -d Basic metal used in strengthening potions.
+
+0 10 0100 - Clay
+    -d Used for binding or grounding properties in potions.
+
+0 11 0010 - Tree Bark
+    -d Harvested from trees, used for its grounding properties.
+
+0 11 0011 - Mushrooms
+    -d Found in forests and caves, used for various effects.
+
+0 11 0100 - Honeycomb
+    -d Gathered from beehives, used for sweetening and preservation.
+
+potions
+
+0 000 0000 - Healing Potion
+    -d Restores health and vitality.
+    -r Eirleaf + Spring Water + Honey
+
+0 000 0001 - Vitality Elixir
+    -d Boosts energy and resilience.
+    -r Lavender + Sunstone + Honeycomb
+
+0 001 0000 - Strength Potion
+    -d Increases physical strength and endurance.
+    -r Bear Claw + Iron Ore + Tree Bark
+
+0 001 0001 - Endurance Draught
+    -d Provides stamina and resilience in battle.
+    -r Sage + Iron Ore + Spring Water
+
+0 010 0000 - Speed Potion
+    -d Enhances speed and agility.
+    -r Mint + Fish Scales + Quartz Crystal
+
+0 010 0001 - Nimbleness Tonic
+    -d Heightens reflexes and agility.
+    -r Rosemary + Fish Scales + Sunstone
+
+0 011 0000 - Invisibility Potion
+    -d Grants temporary invisibility.
+    -r Snake Skin + Fairy Dust + Obsidian Shard
+
+1 100 0000 - Poison Potion
+    -d Inflicts poison on the target.
+    -r Nightshade + Spider Venom + Swamp Water
+
+1 100 0001 - Toxic Mist
+    -d Releases a cloud of poisonous gas.
+    -r Rotten Meat + Swamp Water + Cursed Dust
+
+1 101 0000 - Blindness Potion
+    -d Causes temporary blindness in the target.
+    -r Bat Wings + Withered Root + Ashes
+
+1 101 0001 - Shadow Veil
+    -d Shrouds the target in darkness, causing blindness.
+    -r Obsidian Shard + Fairy Dust + Swamp Water
+
+1 110 0000 - Paralysis Potion
+    -d Renders the target temporarily paralyzed.
+    -r Hemlock + Cursed Dust + Spring Water
+
+1 110 0001 - Stiffening Serum
+    -d Causes stiffening of muscles, rendering the target immobile.
+    -r Clay + Swamp Water + Ashes
+
+1 111 0000 - Confusion Potion
+    -d Induces confusion and disorientation in the target.
+    -r Mushrooms + Fairy Dust + Swamp Water
+
+1 111 0001 - Mind Warp Elixir
+    -d Warps the target's perception of reality, inducing confusion.
+    -r Rosemary + Quartz Crystal + Fairy Dust

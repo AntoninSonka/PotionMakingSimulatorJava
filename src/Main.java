@@ -2,6 +2,9 @@ import graphics.*;
 import utils.*;
 import controll.*;
 
+/**
+ * Main
+ */
 public class Main {
     public static void main(String[] args) 
         throws InterruptedException {
