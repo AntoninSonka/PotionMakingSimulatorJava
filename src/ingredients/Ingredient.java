@@ -5,14 +5,19 @@ package ingredients;
  */
 public class Ingredient {
 
-    int id;
-    String name;
-    String description;
+    public int id;
+    public String name;
+    public String description;
 
-    int quality;
-    int health; // 0 - neutral, signed - poison, unsigned - health potion
+    public int price;
     
-    public Ingredient(){
-        
+    public Ingredient(int id, String name, String description, int price){
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+    }
+    public int getId(){
+        return this.id;
     }
 }

@@ -11,7 +11,7 @@ public class TextBox {
         "#                                                                                                                              #",
         "################################################################################################################################"
     };
-    private int numOfDecisions;
+    private int numOfDecisions = 0;
     
     // 0 numOfDecisions - only text
     public TextBox(int numOfDecisions, String[] lines){
@@ -27,7 +27,7 @@ public class TextBox {
         }
     }
     public void select(int selected){
-        for(int i = 0; i < numOfDecisions; i++){
+        for(int i = 0; i < this.numOfDecisions; i++){
             if(i == selected){
                 this.image[i + 1] = this.image[i + 1].substring(0, 3) + "*" + this.image[i + 1].substring(4);
             }

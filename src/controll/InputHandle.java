@@ -21,6 +21,8 @@ public class InputHandle {
                     return 2;
                 case "d":
                     return 3;
+                case "q":
+                    return 4;
                 default:
                     System.out.println("Couldn\'t resolve the input. Please try again.");
                     break;
