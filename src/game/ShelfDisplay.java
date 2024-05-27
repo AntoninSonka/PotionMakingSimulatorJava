@@ -10,7 +10,7 @@ public class ShelfDisplay extends GameDisplay {
     
     public ShelfDisplay(){
         super("Shelf", 4, 0, "[u]p + Enter, [d]own + Enter, [s]elect + Enter, [q]it + Enter");
-        super.addAsset(new Asset("../assets/shelf.txt", new Coords(7, 47), new Coords(14, 40)));
+        super.addAsset(new Asset("../assets/shelf.txt", new Coords(7, 45), new Coords(14, 40)));
         super.addLine("Ingredients");
         super.addLine("Potions");
         super.addLine("Money");

@@ -20,9 +20,9 @@ public class Inventory extends GameDisplay {
 
     public Inventory(){
         super("Inventory", 4, 0, "[u]p + Enter, [d]own + Enter, [s]elect + Enter, [q]it + Enter");
+        //super.addAsset(new Asset("../assets/shelf.txt", new Coords(7, 45), new Coords(14, 40)));
         this.ingredientInventory = new ArrayList<Ingredient>();
         this.potionInventory = new ArrayList<Potion>();
-        super.addAsset(new Asset("../assets/blank.txt", new Coords(0, 0), new Coords(0, 0)));
     }
 
     public void setup(int index, boolean isIngredient){

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import graphics.*;
+import utils.*;
 
 /**
  * Request
@@ -14,6 +16,7 @@ public class Request extends GameDisplay {
 
     public Request(){
         super("Request", 2, 0, "[u]p + Enter, [d]own + Enter, [s]elect + Enter, [q]it + Enter");
+        super.addAsset(new Asset("../assets/requestPoster.txt", new Coords(3, 33), new Coords(25, 64)));
         super.addLine("Sell requested item");
         super.addLine("Go back");
     }

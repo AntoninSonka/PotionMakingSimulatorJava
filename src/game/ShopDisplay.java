@@ -1,6 +1,8 @@
 package game;
 
 import ingredients.*;
+import graphics.*;
+import utils.*;
 
 /**
  * ShopDisplay
@@ -8,6 +10,8 @@ import ingredients.*;
 public class ShopDisplay extends Inventory {
     public ShopDisplay(){
         super();
+        super.addAsset(new Asset("../assets/witch1.txt", new Coords(10, 50), new Coords(19, 23)));
+        super.addAsset(new Asset("../assets/shop.txt", new Coords(7, 31), new Coords(24, 64)));
         super.addIngredient(new Ingredient(0x00, "Eirleaf", "A plant known for its powerful healing properties", 10)); // Early game
         //super.addIngredient(new Ingredient(0x01, "Golden Flower", "A rare, sun-loving bloom with restorative effects", 25)); // Early game
         super.addIngredient(new Ingredient(0x02, "Lavender", "A fragrant herb used for calming and soothing", 8)); // Early game
