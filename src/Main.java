@@ -164,7 +164,7 @@ public class Main {
                             SellItem sell = new SellItem();
                             choice = sell.draw();
                             if(choice == 0x70){
-                                inventory.setMoney(inventory.getMoney() + inventory.getPotion(potionIndex).price + 10);
+                                inventory.setMoney(inventory.getMoney() + inventory.getPotion(potionIndex).price + 30);
                                 inventory.removePotion(potionIndex);
                             }
                             ingredientIndex = 0;

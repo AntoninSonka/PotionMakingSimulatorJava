@@ -12,7 +12,7 @@ public class SellItem extends GameDisplay {
         super("Sell tem", 2, 0, "[u]p + Enter, [d]own + Enter, [s]elect + Enter, [q]it + Enter");
         super.addLine("Yes");
         super.addLine("No");
-        super.addLine("Sell item with 10 coins profit for potions, no profit for ingredient?");
+        super.addLine("Sell item with 30 coins profit for potions, no profit for ingredient?");
         super.setup();
     }
 
